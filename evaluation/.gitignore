@@ -1,0 +1,6 @@
+__pycache__/
+*.log
+debug_frames/
+metrics/
+predictions/
+predictions_judged/

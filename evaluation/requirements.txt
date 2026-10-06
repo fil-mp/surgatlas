@@ -1,0 +1,8 @@
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.57.1
+accelerate==1.7.0
+qwen-vl-utils[decord]==0.0.14
+openai>=1.66.0
+google-genai>=1.0.0
+tqdm>=4.66.0
