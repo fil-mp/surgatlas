@@ -7,6 +7,13 @@ The [training guide](training/qwen-vl-finetune/README.md) provides Qwen3-VL-8B f
 pretraining steps followed by SurgAtlas-only instruction tuning. It includes
 the data layout, dependencies, and four stage launch scripts.
 
+## SurgAtlas evaluation
+
+The [evaluation guide](evaluation/README.md) provides inference scripts for
+Qwen3-VL checkpoints, OpenAI VLMs, and Gemini, together with exact match,
+token F1, ROUGE-L, and LLM-judge metrics. It uses the full and
+expert-validated Open and MIS evaluation files released with SurgAtlas.
+
 ## Video processing pipeline
 
 This repository contains a set of scripts for processing surgical videos into cleaner, machine-learning-ready artifacts. The pipeline can:
