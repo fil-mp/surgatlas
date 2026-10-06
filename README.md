@@ -1,5 +1,14 @@
 # Surgical Video Detection Pipeline
 
+## SurgAtlas model training
+
+The [training guide](training/qwen-vl-finetune/README.md) provides Qwen3-VL-8B fine-tuning on
+[SurgAtlas](https://huggingface.co/datasets/filbel/SurgAtlas): three captioning
+pretraining steps followed by SurgAtlas-only instruction tuning. It includes
+the data layout, dependencies, and four stage launch scripts.
+
+## Video processing pipeline
+
 This repository contains a set of scripts for processing surgical videos into cleaner, machine-learning-ready artifacts. The pipeline can:
 
 1. **Detect and crop the main surgical procedure window** from raw videos.
